@@ -1,0 +1,7 @@
+.Button {
+        background: var(--accent);
+        color: var(--background);
+
+        padding: 5px 10px;
+        border-radius: 5px;
+}
