@@ -1,0 +1,24 @@
+{
+    "name": "cra-template-basin",
+    "version": "0.1.0",
+    "keywords": [
+        "react",
+        "create-react-app",
+        "template"
+    ],
+    "description": "A tiny non-restrictive standardized template.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/HanzCEO/cra-template-basin"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": ">=14"
+    },
+    "bugs": {
+        "url": "https://github.com/HanzCEO/cra-template-basin/issues"
+    },
+    "files": [
+        "template"
+    ]
+}
