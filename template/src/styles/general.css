@@ -1,4 +1,41 @@
+:root {
+        --primary: rgb(0, 0, 0);
+        --background: rgb(240, 240, 240);
+        --paragraph: rgb(80, 80, 80);
+        --accent: rgb(34, 73, 180);
+}
+
 body {
         margin: 0;
-        outline: none 0;
+        outline: 0;
+        background: var(--background);
+}
+
+body, body * {
+        box-sizing: border-box;
+        outline: 0;
+}
+
+/* Typography */
+/** Coloring **/
+span, p {
+        color: var(--paragraph);
+}
+
+a {
+        color: var(--accent);
+}
+
+h1, h2, h3, h4, h5, h6 {
+        color: var(--primary);
+}
+
+/** Decorations **/
+a:not(.no-dot) {
+        text-decoration: dotted;
+}
+
+/** Events **/
+a:hover {
+        text-decoration: underline;
 }
